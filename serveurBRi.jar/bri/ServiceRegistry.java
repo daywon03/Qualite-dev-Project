@@ -83,15 +83,19 @@ public class ServiceRegistry implements Service {
 	}
 	
 // liste les activit?s pr?sentes
-	public static String toStringue() {
-		StringBuilder result = new StringBuilder("Activites presentes :");
-		// todo
-		for (Class<?> classe : servicesClasses){
-			result.append(classe.getName()).append("\n");
+public static String toStringue() {
+	StringBuilder result = new StringBuilder("Activites presentes :##");
+	for (int i = 0; i < servicesClasses.size(); i++) {
+		try {
+			Method method = servicesClasses.get(i).getMethod("toStringue");
+			result.append((i + 1)).append(" - ").append(method.invoke(null)).append("##");
+		} catch (Exception e) {
+			result.append((i + 1)).append(" - ").append(servicesClasses.get(i).getName()).append("##");
 		}
-
-		return result.toString();
 	}
+	return result.toString();
+}
+
 
 
 	@Override

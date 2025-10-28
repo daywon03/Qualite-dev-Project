@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/mina-core-2.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/slf4j-log4j12-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/spring-core-2.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/slf4j-api-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/jcl-over-slf4j-1.7.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/ftpserver-core-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/spring-context-2.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/ftplet-api-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/spring-beans-2.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-ftpserver-1.1.0/common/lib/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

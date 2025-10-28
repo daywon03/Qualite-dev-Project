@@ -1,9 +1,9 @@
 package examples;
 
+import bri.Service;
+
 import java.io.*;
 import java.net.*;
-
-import bri.Service;
 
 // rien  ajouter ici
 public class ServiceInversion implements Service {

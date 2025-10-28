@@ -37,13 +37,10 @@ class ServiceBRi implements Runnable {
             throw new RuntimeException(e);
         } catch (NoSuchMethodException e) {
             throw new RuntimeException(e);
-        } catch (InstantiationException e) {
-            throw new RuntimeException(e);
-        } catch (IllegalAccessException e) {
-            throw new RuntimeException(e);
-        }
-
-        try {client.close();} catch (IOException e2) {}
+        } catch (Exception e) {
+			System.err.println("Erreur lors de l'instanciation du service: " + e.getMessage());
+			e.printStackTrace();
+		}
 	}
 
 

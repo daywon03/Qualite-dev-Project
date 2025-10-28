@@ -726,3 +726,87 @@ java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
 [ INFO] 2025-10-21 13:05:46,905 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4b8ee4de
 [ INFO] 2025-10-21 13:05:46,909 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4b8ee4de: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
 [ INFO] 2025-10-21 13:05:46,970 [] [] FTP server started
+[ INFO] 2025-10-28 06:56:59,003 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5e955596: display name [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]; startup date [Tue Oct 28 06:56:58 EET 2025]; root of context hierarchy
+[ INFO] 2025-10-28 06:56:59,021 [] [] Loading XML bean definitions from file [/Users/damonba/Documents/QualiteDev/BUT3/Qualite-dev-Project/apache-ftpserver-1.1.0/res/conf/ftpd-typical.xml]
+[ INFO] 2025-10-28 06:56:59,198 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]: org.springframework.beans.factory.support.DefaultListableBeanFactory@29215f06
+[ INFO] 2025-10-28 06:56:59,202 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@29215f06: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2025-10-28 06:56:59,269 [] [] FTP server started
+[ INFO] 2025-10-28 07:00:18,204 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5e955596: display name [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]; startup date [Tue Oct 28 07:00:18 EET 2025]; root of context hierarchy
+[ INFO] 2025-10-28 07:00:18,222 [] [] Loading XML bean definitions from file [/Users/damonba/Documents/QualiteDev/BUT3/Qualite-dev-Project/apache-ftpserver-1.1.0/res/conf/ftpd-typical.xml]
+[ INFO] 2025-10-28 07:00:18,388 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]: org.springframework.beans.factory.support.DefaultListableBeanFactory@47d9a273
+[ INFO] 2025-10-28 07:00:18,392 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47d9a273: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2025-10-28 07:00:18,456 [] [] FTP server started
+[ INFO] 2025-10-28 07:13:09,681 [] [127.0.0.1] CREATED
+[ INFO] 2025-10-28 07:13:09,693 [] [127.0.0.1] OPENED
+[ INFO] 2025-10-28 07:13:09,696 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2025-10-28 07:13:09,697 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2025-10-28 07:13:09,698 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2025-10-28 07:13:09,699 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2025-10-28 07:13:09,708 [anonymous] [127.0.0.1] Anonymous login success - Java21.0.2@
+[ INFO] 2025-10-28 07:13:09,708 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2025-10-28 07:13:09,708 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2025-10-28 07:13:09,709 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2025-10-28 07:13:09,709 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2025-10-28 07:13:09,711 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||64959|)
+
+[ INFO] 2025-10-28 07:13:09,711 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2025-10-28 07:13:09,711 [anonymous] [127.0.0.1] Releasing unreserved passive port: 64959
+[ INFO] 2025-10-28 07:13:09,711 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||64960|)
+
+[ INFO] 2025-10-28 07:13:09,712 [anonymous] [127.0.0.1] RECEIVED: RETR ServiceInversion.class
+[ INFO] 2025-10-28 07:13:09,978 [anonymous] [127.0.0.1] File downloaded /ServiceInversion.class
+[ WARN] 2025-10-28 07:13:09,980 [anonymous] [127.0.0.1] Releasing unreserved passive port: 64960
+[ INFO] 2025-10-28 07:13:09,980 [anonymous] [127.0.0.1] SENT: 150 File status okay; about to open data connection.
+
+[ INFO] 2025-10-28 07:13:09,980 [anonymous] [127.0.0.1] SENT: 226 Transfer complete.
+
+[ INFO] 2025-10-28 07:13:09,981 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2025-10-28 07:13:09,982 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2025-10-28 07:13:09,982 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2025-10-28 07:44:25,291 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5e955596: display name [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]; startup date [Tue Oct 28 07:44:25 EET 2025]; root of context hierarchy
+[ INFO] 2025-10-28 07:44:25,308 [] [] Loading XML bean definitions from file [/Users/damonba/Documents/QualiteDev/BUT3/Qualite-dev-Project/apache-ftpserver-1.1.0/res/conf/ftpd-typical.xml]
+[ INFO] 2025-10-28 07:44:25,472 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4c1909a3
+[ INFO] 2025-10-28 07:44:25,476 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c1909a3: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2025-10-28 07:44:25,540 [] [] FTP server started
+[ INFO] 2025-10-28 07:44:53,660 [] [127.0.0.1] CREATED
+[ INFO] 2025-10-28 07:44:53,663 [] [127.0.0.1] OPENED
+[ INFO] 2025-10-28 07:44:53,672 [] [127.0.0.1] SENT: 220 Service ready for new user.
+
+[ INFO] 2025-10-28 07:44:53,674 [] [127.0.0.1] RECEIVED: USER anonymous
+[ INFO] 2025-10-28 07:44:53,676 [anonymous] [127.0.0.1] SENT: 331 Guest login okay, send your complete e-mail address as password.
+
+[ INFO] 2025-10-28 07:44:53,676 [anonymous] [127.0.0.1] RECEIVED: PASS *****
+[ INFO] 2025-10-28 07:44:53,677 [anonymous] [127.0.0.1] Anonymous login success - Java21.0.2@
+[ INFO] 2025-10-28 07:44:53,677 [anonymous] [127.0.0.1] SENT: 230 User logged in, proceed.
+
+[ INFO] 2025-10-28 07:44:53,678 [anonymous] [127.0.0.1] RECEIVED: TYPE I
+[ INFO] 2025-10-28 07:44:53,678 [anonymous] [127.0.0.1] SENT: 200 Command TYPE okay.
+
+[ INFO] 2025-10-28 07:44:53,678 [anonymous] [127.0.0.1] RECEIVED: EPSV ALL
+[ INFO] 2025-10-28 07:44:53,680 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||65291|)
+
+[ INFO] 2025-10-28 07:44:53,680 [anonymous] [127.0.0.1] RECEIVED: EPSV
+[ WARN] 2025-10-28 07:44:53,680 [anonymous] [127.0.0.1] Releasing unreserved passive port: 65291
+[ INFO] 2025-10-28 07:44:53,680 [anonymous] [127.0.0.1] SENT: 229 Entering Passive Mode (|||65292|)
+
+[ INFO] 2025-10-28 07:44:53,681 [anonymous] [127.0.0.1] RECEIVED: RETR Service.class
+[ WARN] 2025-10-28 07:44:53,682 [anonymous] [127.0.0.1] Releasing unreserved passive port: 65292
+[ INFO] 2025-10-28 07:44:53,682 [anonymous] [127.0.0.1] SENT: 550 /Service.class: No such file or directory.
+
+[ INFO] 2025-10-28 07:44:53,683 [anonymous] [127.0.0.1] RECEIVED: CWD Service.class
+[ INFO] 2025-10-28 07:44:53,683 [anonymous] [127.0.0.1] SENT: 550 No such directory.
+
+[ INFO] 2025-10-28 07:44:53,683 [anonymous] [127.0.0.1] RECEIVED: QUIT
+[ INFO] 2025-10-28 07:44:53,684 [anonymous] [127.0.0.1] SENT: 221 Goodbye.
+
+[ INFO] 2025-10-28 07:44:53,684 [anonymous] [127.0.0.1] CLOSED
+[ INFO] 2025-10-28 07:56:54,821 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5e955596: display name [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]; startup date [Tue Oct 28 07:56:54 EET 2025]; root of context hierarchy
+[ INFO] 2025-10-28 07:56:54,839 [] [] Loading XML bean definitions from file [/Users/damonba/Documents/QualiteDev/BUT3/Qualite-dev-Project/apache-ftpserver-1.1.0/res/conf/ftpd-typical.xml]
+[ INFO] 2025-10-28 07:56:55,002 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@5e955596]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4659191b
+[ INFO] 2025-10-28 07:56:55,006 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4659191b: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2025-10-28 07:56:55,069 [] [] FTP server started

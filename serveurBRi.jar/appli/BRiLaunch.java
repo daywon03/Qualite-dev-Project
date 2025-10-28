@@ -17,7 +17,7 @@ public class BRiLaunch {
 		
 		// URLClassLoader sur ftp
 		URLClassLoader urlcl = new URLClassLoader(new URL[] {
-				new URL("ftp://localhost:2121/")
+				new URL("ftp://localhost:2121/home/")
 		});
 		
 		System.out.println("Bienvenue dans votre gestionnaire dynamique d'activite BRi");

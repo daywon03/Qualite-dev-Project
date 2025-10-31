@@ -27,12 +27,12 @@ public class BRiLaunch {
 
 		System.out.println("Bienvenue dans votre gestionnaire dynamique d'activite BRi");
 		System.out.println("PORT programmeurs" + PORT_PROG);
-		System.out.println("PORT amateurs" + PORT_PROG);
+		System.out.println("PORT amateurs" + PORT_AMA);
 
 		//Lancement de serveurs pour programmeurs
 		new Thread(new ServeurBRi(PORT_PROG)).start();
 		//Lancement de serveurs pour amateurs
-		new Thread(new ServeurBRi(PORT_PROG)).start();
+		new Thread(new ServeurBRi(PORT_AMA)).start();
 
 		System.out.println("\n Serveurs demarrer, Tapez 'help' pour aide.");
 

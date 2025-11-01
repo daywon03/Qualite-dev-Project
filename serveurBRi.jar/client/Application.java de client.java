@@ -21,7 +21,7 @@ class Application {
 		private final static String HOST = "localhost"; 
 	
 	public static void main(String[] args) {
-		Socket s = null;		
+		Socket s = null;
 		try {
 			s = new Socket(HOST, PORT_SERVICE);
 
